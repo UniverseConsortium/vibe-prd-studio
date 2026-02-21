@@ -1,6 +1,6 @@
 # Vibe PRD Studio
 
-> English page. 点击这里查看中文文档：**[README.zh-CN.md](./README.zh-CN.md)**
+> English page. 点击这里查看中文文档：**[简体中文](./README.zh-CN.md)**
 
 A Next.js app that helps Vibe Coding beginners turn fuzzy ideas into professional PRD documents.
 
@@ -26,6 +26,6 @@ npm run start
 - TypeScript
 - ESLint
 
-## Chinese Documentation
+## 简体中文文档
 
-- 简体中文：**[README.zh-CN.md](./README.zh-CN.md)**
+- 简体中文：**[简体中文](./README.zh-CN.md)**

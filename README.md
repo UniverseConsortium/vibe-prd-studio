@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vibe PRD Studio（简体中文）
 
-## Getting Started
+把脑海中的模糊想法，快速整理成可执行的专业需求文档（PRD）。
 
-First, run the development server:
+## 项目定位
+
+面向 Vibe Coding 小白：
+- 不需要先会写完整 PRD
+- 先输入想法、用户、场景、功能点
+- 系统自动生成结构化 PRD 草案（Markdown）
+
+## 技术栈
+
+- Next.js 16（App Router）
+- TypeScript
+- ESLint
+
+## 当前功能
+
+1. 结构化输入表单
+   - 项目想法
+   - 目标用户
+   - 使用场景
+   - 核心功能（逐行）
+   - 约束条件
+   - 时间预期
+
+2. 实时 PRD 预览
+   - 自动生成标准 PRD 章节
+   - 输出为 Markdown 风格内容
+
+3. 一键复制
+   - 点击按钮复制完整 PRD 文本
+   - 可直接粘贴到文档、飞书、Notion、GitHub
+
+## 本地启动
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+默认访问：
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 构建
 
-## Learn More
+```bash
+npm run build
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 建议的下一步
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 导出 `.md` / `.pdf`
+- 增加模板（Web3 / 电商 / SaaS / AI Agent）
+- 历史版本与协作
+- 需求评审清单（自动补齐验收标准）
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 目录说明（简）
 
-## Deploy on Vercel
+```text
+src/app/page.tsx          页面与交互逻辑
+src/app/page.module.css   样式
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 许可
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+内部开发用途（可按团队需要补充 LICENSE）。
